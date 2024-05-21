@@ -1,0 +1,125 @@
+.body-container {
+  width: 1570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.omegle-header {
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px  hsla(0, 0%, 0%, 0.5);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.tagline {
+  font-size: 1.5em;
+  margin-left: 20px;
+  transform: rotate(-5deg);
+  color: black;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1500px;
+  height: 500px;
+  padding: 0 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.video-box {
+  width: 300px;
+  height: 500px;
+  background-color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-box {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.chat-footer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+}
+
+.next-btn {
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+
+.send-btn {
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
