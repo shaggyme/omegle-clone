@@ -78,11 +78,15 @@ const Body = () => {
       </header>
       <main className="content">
         <div className="video-container">
-        <div className="video-box local-video">
+          <div className="video-box local-video">
             {users[0] && <VideoPlayer key={users[0].uid} user={users[0]} />}
           </div>
           <div className="video-box remote-video">
-            {users[1] && <VideoPlayer key={users[1].uid} user={users[1]} />}
+            {users[1] ? (
+              <VideoPlayer key={users[1].uid} user={users[1]} />
+            ) : (
+              <div>No video found</div>
+            )}
           </div>
         </div>
         <div className="chat-container">
